@@ -7,7 +7,7 @@
  */
 static char *font = "Hack Nerd Font:pixelsize=18:antialias=true:autohint=true";
 /* Spare fonts */
-static char *font2[] = { "JoyPixels:pixelsize=12:antialias=true:autohint=true" };
+static char *font2[] = { "JoyPixels:pixelsize=18:antialias=true:autohint=true", };
 
 static int borderpx = 10;
 
@@ -169,7 +169,7 @@ static uint forcemousemod = ShiftMask;
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
  */
-const unsigned int mousescrollincrement = 1;
+const unsigned int mousescrollincrement = 5;
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument       release */
 	{ XK_ANY_MOD,           Button4, kscrollup,      {.i = mousescrollincrement},      0, /* !alt */ -1 },
