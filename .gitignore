@@ -1,4 +1,5 @@
 *.o
 st
 *.orig
+*.rej
 config.def.h
